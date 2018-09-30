@@ -48,12 +48,15 @@
 
  // * Задача 1
 
- let b ;
- if ( b === 'hidden' ) {
+ // let b ; 
+ if ( b === 'hidden' ) { 
      b =  'visible' ;
  } else {
-     b =  'hidden' ;
+     b =  'hidden' ; // If the b was not string then we have hidden type changing...
  };
+
+// Ternary operator
+b = b === 'hidden' ? 'visible' : 'hidden';
 
  // * Задача 2
 
