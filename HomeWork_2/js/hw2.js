@@ -4,7 +4,7 @@
 
  //* Задача 1
 
-  let shop = { product : "iphone" };
+  let shop = { product : "iphone" }; // FIXME: May be shopItem ?
 
  //* Задача 2
 
@@ -42,29 +42,37 @@
 
  //* Задача 2
 
-  q *= q;
+  q *= q; // FIXME: May be to add real example as in previous exercises?
 
  //* УСЛОВНЫЕ ОПЕРАТОРЫ
 
  // * Задача 1
 
- let b ;
- if ( b === 'hidden' ) {
+ // let b ; 
+ if ( b === 'hidden' ) { 
      b =  'visible' ;
  } else {
-     b =  'hidden' ;
+     b =  'hidden' ; // If the b was not string then we have hidden type changing...
  };
+
+// Ternary operator
+b = b === 'hidden' ? 'visible' : 'hidden';
 
  // * Задача 2
 
  let a ;
  if ( a === 0 ) {
+  // AD: if ( a === 0 ) {
      a = 0 ;
  } if ( a < 0 ) {
+ // AD: } else if ( a < 0 ) {
      a = ' less then zero' ;
  } else {
-     a *= 10;
+     a *= 10; // AD: If a is string '0' then the result is 0
  };
+
+// AD: Ternary operator
+a = a == 0 ? 1 : a < 0 ? 'less then zero' : a * 10;
  
  //* ПРЕОБРАЗОВАНИЕ ТИПОВ
 
