@@ -4,7 +4,7 @@
 
  //* Задача 1
 
-  let shop = { product : "iphone" };
+  let shop = { product : "iphone" }; // FIXME: May be shopItem ?
 
  //* Задача 2
 
