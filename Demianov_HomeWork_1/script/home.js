@@ -31,7 +31,9 @@ console.log( string.substring( 4,9 ));
 
 // задача 7
 
-console.log( string.substr( 0, string.length - 6 ));
+//console.log( string.substr( 0, string.length - 6 ));
+let string = "some test string";
+console.log( string.slice( 0, -6 ));
 
 // задача 8
 

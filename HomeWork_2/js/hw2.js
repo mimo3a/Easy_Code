@@ -4,18 +4,18 @@
 
  //* Задача 1
 
-  let shop = { product : " iphone " };
+  let shop = { product : "iphone" };
 
  //* Задача 2
 
-  shop.price = " 1000 ";
-  shop.currency = " dollar ";
+  shop.price = "1000";
+  shop.currency = "dollar";
 
  //* Задача 3
 
   shop.details = {
-      model : " 6s ",
-      color : " grey "
+      model : "6s",
+      color : "grey"
   };
 
  //* ПРИСВАИВАНИЕ
