@@ -42,7 +42,7 @@
 
  //* Задача 2
 
-  q *= q;
+  q *= q; // FIXME: May be to add real example as in previous exercises?
 
  //* УСЛОВНЫЕ ОПЕРАТОРЫ
 
