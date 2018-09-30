@@ -63,8 +63,8 @@ b = b === 'hidden' ? 'visible' : 'hidden';
  let a ;
  if ( a === 0 ) {
   // AD: if ( a === 0 ) {
-     a = 0 ;
- } if ( a < 0 ) {
+     a = 1 ;
+ } else if ( a < 0 ) {
  // AD: } else if ( a < 0 ) {
      a = ' less then zero' ;
  } else {
