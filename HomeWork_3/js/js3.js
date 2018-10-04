@@ -3,9 +3,9 @@
 //  ЗАДАЧА 1
 
  let beginText = "I am in the easycode";
- let finishText = "";
+ let finishText = beginText[0].toLocaleUpperCase();
  let litera;
- for (let i = 0; i < beginText.length; i ++) {
+ for (let i = 1; i < beginText.length; i ++) {
       if (beginText [i] === " ") {
         i ++;
         litera = " " + beginText[i].toUpperCase();
@@ -37,13 +37,12 @@ console.log(n + "!=" + factorial);
 // ЗАДАЧА 5
 
 let startString = "JavaScript is a pretty good language";
-let finishString = "";
+let finishString = startString[0].toLocaleUpperCase();
 let someLitera;
-let lit = 0;
+let lit = 1;
 while (lit < startString.length) {
     if (startString[lit] === " ") {
-      lit ++;
-      someLitera = startString[lit].toUpperCase();
+        someLitera = startString[++ lit].toUpperCase();
     } else {
       someLitera = startString[lit] ;
     };
@@ -57,10 +56,9 @@ console.log(finishString);
 let oddOf = 0;
 for (let num = 1; num <= 15; num ++) {
         if (num % 2) {
-        oddOf += 1;
+          console.log(num);
         };
      };
-console.log(oddOf);
 
 //  ЗАДАЧА ИЗ УРОКА
 
@@ -68,8 +66,8 @@ let str = "Hello world";
 let res = "";
 for (let i = 0; i < str.length; i++) {
     res += str[i];
-        if (i === str.length - 1) {
-            break;
+         if (i === str.length - 1) {
+           break;
         };
     res += "*";
     };
