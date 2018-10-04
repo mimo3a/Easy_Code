@@ -53,7 +53,6 @@ console.log(finishString);
 
 //  ЗАДАЧА 6
 
-let oddOf = 0;
 for (let num = 1; num <= 15; num ++) {
         if (num % 2) {
           console.log(num);
