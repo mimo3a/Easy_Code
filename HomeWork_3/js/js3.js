@@ -53,12 +53,14 @@ console.log(finishString);
 
 //  ЗАДАЧА 6
 
+let oddOf = ""
+
 for (let num = 1; num <= 15; num ++) {
         if (num % 2) {
-          console.log(num);
+          oddOf += num + " ";
         };
      };
-
+console.log(oddOf);
 //  ЗАДАЧА ИЗ УРОКА
 
 let str = "Hello world";
