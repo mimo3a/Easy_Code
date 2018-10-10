@@ -70,6 +70,7 @@ for (let i = 0; i < str.length; i++) {
          if (i === str.length - 1) {
            break;
         };
+        
     res += "*";
     };
     console.log(res);
