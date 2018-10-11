@@ -1,8 +1,8 @@
 
 
-//  ФУНКЦИИ
+//!  ФУНКЦИИ
 
-// ЗАДАЧА 1
+//* ЗАДАЧА 1
 
 function multiply(a=0){
     let multi = a;
@@ -11,10 +11,10 @@ function multiply(a=0){
     }
     return multi;
 }
-let res = multiply();
+multiply();
 
 
-// ЗАДАЧА 3
+//* ЗАДАЧА 3
 
 function reverseString(str){
     if (typeof str !== "string"){  // Если передать число
@@ -26,9 +26,9 @@ function reverseString(str){
     }
     return revers;
 }
-let resRevers = reverseString();
+reverseString();
 
-// ЗАДАЧА 4
+//* ЗАДАЧА 4
 
 function getCodeStringFromText(strOrigin){
     let arrUnicod = [];
@@ -39,9 +39,9 @@ function getCodeStringFromText(strOrigin){
 }
 getCodeStringFromText();
 
-// МАССИВЫ
+//! МАССИВЫ
 
-// ЗАДАЧА 1
+//* ЗАДАЧА 1
 
 function doubleArray(startArray){
     const finishArray = startArray.concat(startArray);
@@ -49,14 +49,14 @@ return finishArray;
 }
 doubleArray();
 
-// ЗАДАЧА 2
+//* ЗАДАЧА 2
 
 function lastElement(array){
     return array.slice(-1);
 }
  lastElement();
 
-//ЗАДАЧА 3
+//* ЗАДАЧА 3
 
 function getArray(N){
     const arr = [];
@@ -67,7 +67,7 @@ function getArray(N){
 }
  getArray();
 
-// ЗАДАЧА 4
+//* ЗАДАЧА 4
 
 function changeCollection(){
     let newArray = [];
