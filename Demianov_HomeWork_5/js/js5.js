@@ -57,10 +57,10 @@ function stringSort(beginStr) {
      let arr = beginStr.split("");
      arr.sort(function(prev, next) {
          if (next > prev) {
-             return 1;
+         return 1;
          }
          if (next < prev) {
-             return -1;
+         return -1;
          }
          return 0;
      });
@@ -73,7 +73,7 @@ console.log(stringSort("abcdefghijklm"));
 
 function arrSortRev(beginArray) {
     beginArray.sort(function(prev, next) {
-        return next - prev;
+    return next - prev;
     })
     return beginArray;
 }
@@ -150,11 +150,11 @@ function sortProdacts(arr, price1, price2) {
     for ( let i = 0; i < arr.length; i ++) {
          element = arr[i];
          if (arr[i].price >= price1 && arr[i].price <= price2) {
-             correctArray.push(arr[i]);
+         correctArray.push(arr[i]);
          }
     }
     correctArray.sort(function(prev, next) {
-        return prev.price - next.price;
+    return prev.price - next.price;
     });
     return correctArray;
 }
